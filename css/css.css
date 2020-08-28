@@ -1,0 +1,136 @@
+@font-face {
+    font-family: archivo;
+    src: url(../fonts/ArchivoBlack-Regular.ttf);
+  }
+body{
+    background-image: url(../images/mooning.png);
+    background-repeat: repeat;
+}
+.health{
+    color: #7ac44c;
+}
+.mi{
+    color: #ff0000;
+}
+.menuoption {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    float: right;
+    padding: 7px 30px;
+  }
+ 
+.logo{
+    font-family: archivo;
+    display: inline;
+    float: left;
+    font-weight: bold;
+    font-size: 25px;
+}
+header {
+    padding: 15px 30px 60px 30px;
+}
+.grid-container {
+    display: grid;
+    background-color: rgb(230, 228, 228);
+    grid-template-areas: 
+    "info pic pic pic";
+    grid-auto-rows: 600px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+.item1{
+    text-align: left;
+    width: 250px;
+    justify-self: center;
+    margin:12px 7px 50px 7px;
+}
+.item2{
+    background-image: url(../images/apple-breakfast-quinoa.jpg);
+    background-size: cover;
+    background-position: bottom;
+    margin:50px 7px 50px 7px;
+    position: relative;
+}
+.item3{
+    background-image: url(../images/pasta-salad-recipe-for-lunch.jpg);
+    background-size: cover;
+    background-position: bottom;
+    margin:50px 7px 50px 7px;
+    position: relative;
+}
+.item4{
+    background-image: url(../images/shrimp-dinner.jpg);
+    background-size: cover;
+    background-position: bottom;
+    margin:50px 7px 50px 7px;
+    position: relative;
+}
+.fresh{
+    display: inline-block;
+    padding: 10px 25px 10px 25px;
+    background-color: white;
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    
+} 
+.sweet{
+    display: inline-block;
+    padding: 10px 25px 10px 25px;
+    background-color: white;
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+   
+}
+.delicious{
+    display: inline-block;
+    padding: 10px 25px 10px 25px;
+    background-color: white;
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+
+}
+.breakfast{
+    display: inline-block;
+    padding: 10px 25px 10px 50px;
+    background-color: #7ac44c;
+    position: absolute;
+    bottom: -16px;
+    right: 0px;
+    
+}
+.lunch{
+    display: inline-block;
+    padding: 10px 25px 10px 80px;
+    background-color: #7ac44c;
+    position: absolute;
+    bottom: -16px;
+    right: 0px;
+   
+}
+.dinner{
+    display: inline-block;
+    padding: 10px 25px 10px 75px;
+    background-color: #7ac44c;
+    position: absolute;
+    bottom: -16px;
+    right: 0px;
+    
+}
+.label{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: archivo;
+}
+.title{
+    font-size: 50px;
+    font-family: archivo; 
+}
+.content{
+    font-size: 19px;
+}
+.browse{
+    text-transform: uppercase;
+    font-size: 15px;
+}
